@@ -88,4 +88,4 @@ void ReverseVarBits(char *Var)
     }
 
     *Var = TempReverse;
-};
+}
