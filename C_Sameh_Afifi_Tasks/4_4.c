@@ -1,7 +1,8 @@
 /*  -------------------------------------------------------------------
-    String (1):
+    String (4):
     -----------
 
-        1. Write a C Function that converts any letter from lowercase to uppercase.
+        4. Write a C function to concatenate two strings.
+
         
 */

@@ -1,8 +1,7 @@
 /*  -------------------------------------------------------------------
-    String (2):
+    Struct:(1):
     -----------
-
-        2. Write a C function which return the length of strings.
-
+        1. C Program to Store Information of Students Using Structure
+      
         
 */

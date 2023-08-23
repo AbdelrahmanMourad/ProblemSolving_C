@@ -1,8 +1,6 @@
 /*  -------------------------------------------------------------------
-    String (2):
+    Struct:(3):
     -----------
-
-        2. Write a C function which return the length of strings.
-
+        3. https://www.hackerrank.com/challenges/dynamic-array/problem
         
 */

@@ -1,8 +1,7 @@
 /*  -------------------------------------------------------------------
-    String (2):
+    Struct:(2):
     -----------
-
-        2. Write a C function which return the length of strings.
-
+        2. C Program to Calculate Difference Between Two Time Periods
+       
         
 */
