@@ -1,6 +1,6 @@
 /*  
     -----------
-    Basiss (5):
+    Basics (5):
     -----------
     Write a program that:
     ---------------------
@@ -15,15 +15,5 @@
 
 void main (void)
 {
-    //  Defining Variables:
-    int num;
 
-    //  Taking Inputs from user:
-    printf("please enter num1:\n");
-    scanf("%d",&num);
-
-    //  Algorithm:
-    for (int i = 1)
-    //  Printing Outputs To User:
-    printf("Result = %f\n", result);
 }
