@@ -1,11 +1,11 @@
 /*
-    -----------
-    Bitwise (7):
-    -----------
+    ------------
+    Bitwise (9):
+    ------------
     Write a program that:
     ---------------------
-        reads a positive integer and reverse all bits.
-        x = 0x12345678 -> x will be 0x78563412
+        reads a positive integer and calculate the number of
+        ones & zeros in the number.
 */
 
 /*  ---------------------------------------------------------------------------
@@ -20,13 +20,15 @@
 void ShowResult(char Var, char BitNumber);
 void PrintBinary(char Var);
 void ReverseVarBits(char *Var);
+void CountZerosAndOnes(unsigned char Var, char *Zeros, char *Ones);
 
 /*  ---------------------------------------------------------------------------
                             Driver Code:
     ---------------------------------------------------------------------------*/
 void main(void)
 {
-    char Var; // Var to take from user
+    char Zeros = 0, Ones = 0;
+    unsigned char Var; // Var to take from user
 
     // Take value from user
     printf("Please Enter a number\n");
@@ -37,11 +39,7 @@ void main(void)
     PrintBinary(Var);
 
     // Algorithm
-    ReverseVarBits(&Var);
-
-    // After
-    printf("After: %d \n", Var);
-    // PrintBinary(Var);
+    CountZerosAndOnes(Var, &Zeros, &Ones);
 }
 
 /*  ---------------------------------------------------------------------------
@@ -75,6 +73,24 @@ void PrintBinary(char Var)
     }
 
     printf("\n");
+}
+
+void CountZerosAndOnes(unsigned char Var, char *Zeros, char *Ones)
+{
+    char state;
+
+    // Loop to calculate and store Zeros and Ones
+    for (char i = 0; i < 8; i++)
+    {
+        // Get bit value
+        state = GET_BIT(Var, i);        
+
+        // Check value and add to the container (Take Care of Presedence)
+        state==0 ? (*Zeros)++ : (*Ones)++;
+    }
+
+    printf("Zeros = %d\t,Ones = %d\n", *Zeros , *Ones);
+
 }
 
 void ReverseVarBits(char *Var)
