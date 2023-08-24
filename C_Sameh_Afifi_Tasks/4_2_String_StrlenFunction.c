@@ -36,9 +36,8 @@ int main()
     //  -------------
     //  Algorithm(1):
     //  -------------
-    /*
-    strlen() is the pre-defined function in <string.h>
-    to find the length of a string
+    /*      strlen() is the pre-defined function in <string.h>
+                to find the length of a string
     */
     Length = strlen(StringArray);
 
