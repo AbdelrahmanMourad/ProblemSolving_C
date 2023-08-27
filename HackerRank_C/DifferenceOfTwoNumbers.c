@@ -1,8 +1,8 @@
 /*	---------------------------------------------------------------------------
 	
-	Prepare	-->	C	-->	Introduction	-->	Sum and Difference of Two Numbers
+Prepare	-->	C	-->	Introduction	-->	Sum and Difference of Two Numbers
 
-	https://www.hackerrank.com/challenges/sum-numbers-c/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/sum-numbers-c/problem?isFullScreen=true
 	
 ----------
 Objective:

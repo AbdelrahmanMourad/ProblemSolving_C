@@ -1,9 +1,9 @@
 /*	---------------------------------------------------------------------------
-	
-	Prepare	-->	C	-->	Introduction	-->	Sum of Digits of Five Digits Number.
 
-	https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem?isFullScreen=true
-	
+Prepare	-->	C	-->	Introduction	-->	Sum of Digits of Five Digits Number.
+
+https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem?isFullScreen=true
+
 ----------
 Objective:
 ----------
