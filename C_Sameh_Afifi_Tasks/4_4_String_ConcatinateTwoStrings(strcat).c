@@ -32,7 +32,7 @@ int main()
     printf("String1:\t%s\n", ArrayString1);
     printf("String2:\t%s\n", ArrayString2);
 
-    // Swap the Two Strings.
+    // Concatinate the Two Strings.
     ConcatinateTwoStrings(ArrayString1, ArrayString2);
 
     // Print Them After.
@@ -53,10 +53,11 @@ void ConcatinateTwoStrings(char *String1, char *String2)
     char Length1 = MyStrLen(String1);
     char Length2 = MyStrLen(String2);
 
+    // Index.
     int i = Length1;
     int k = 0;
 
-    // Do Swap.
+    // Do Concatinate.
     while (String2[k] != '\0')
     {
         // i from {L1} to {L1+L2}
