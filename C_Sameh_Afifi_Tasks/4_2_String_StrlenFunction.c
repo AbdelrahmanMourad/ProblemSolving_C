@@ -1,7 +1,7 @@
 /*  -------------------------------------------------------------------
     String (2):
     -----------
-    
+
         2. Write a C function which return the length of strings.
 
 */
@@ -42,7 +42,7 @@ int main()
     Length = strlen(StringArray);
 
     //  Display The Length
-    printf("Length Of The Given String = %d\n", Length);
+    printf("Length Of The Given String ( strlen ) = %d\n", Length);
 
     /*  -------------
         Algorithm(2):
@@ -51,7 +51,7 @@ int main()
     Length = MyStrLen(StringArray);
 
     //  Display The Length
-    printf("Length Of The Given String = %d\n", Length);
+    printf("Length Of The Given String (MyStrLen) = %d\n", Length);
 
     return 0;
 }
