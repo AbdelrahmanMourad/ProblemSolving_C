@@ -25,6 +25,9 @@ char MyStrLen(char *String);
 
 int main()
 {
+    // For Test Cases.
+    char result;
+
     // Create Two Strings.
     char ArrayString1[100] = "Abdelrahman Mourad";
     char ArrayString2[100] = "Ibrahim ElSayed";
@@ -33,12 +36,20 @@ int main()
     printf("String1:\t%s\n", ArrayString1);
     printf("String2:\t%s\n", ArrayString2);
 
-    // Swap the Two Strings.
-    ConcatinateTwoStrings(ArrayString1, ArrayString2);
+    // Test Case 1:
+    result = MyStrComp(ArrayString1, ArrayString2);
+    printf("\nTest Case 1:\n");
+    printf("A & B Cmp Status = %d", result);
 
-    // Print Them After.
-    printf("String1:\t%s\n", ArrayString1);
-    printf("String2:\t%s\n", ArrayString2);
+    // Test Case 2:
+    result = MyStrComp(ArrayString1, ArrayString1);
+    printf("\nTest Case 2:\n");
+    printf("A & A Cmp Status = %d", result);
+
+    // Test Case 3:
+    result = MyStrComp(ArrayString2, ArrayString2);
+    printf("\nTest Case 3:\n");
+    printf("B & B Cmp Status = %d", result);
 
     return 0;
 }
@@ -63,7 +74,7 @@ char MyStrComp(char *String1, char *String2)
         }
         else
         {
-            Status = 0;
+            status = 0;
             break;
         }
     }
