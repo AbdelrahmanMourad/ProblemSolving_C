@@ -39,6 +39,6 @@ void main(void)
     else
     {
         Result = ((a + b) / (c - d));     // Calculation.
-        printf("Result = %2.2f\n", Result); // Print Result.
+        printf("Result =%2.2f\n", Result); // Print Result.
     }
 }
