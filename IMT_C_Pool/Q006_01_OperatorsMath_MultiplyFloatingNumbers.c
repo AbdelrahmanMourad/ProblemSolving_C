@@ -14,7 +14,7 @@
 
                     Write a C code that will ask the user to enter two values
                     (Floating Numbers) and print their Multiply
-                    
+
                     Test Case:
                         Input:
                             Enter First Number: 3.5
@@ -30,5 +30,18 @@
 // Driving Code.
 void main(void)
 {
+    // Declare Variables.
+    float a, b, Result;
 
+    // Take Two Inputs From User.
+    printf("Enter First Number: ");
+    scanf("%f", &a);
+    printf("Enter Second Number: ");
+    scanf("%f", &b);
+
+    // Calculations.
+    Result = a * b;
+
+    // Print Outputs To User.
+    printf("Result=%2.2f\n", Result);
 }
