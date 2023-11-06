@@ -32,5 +32,22 @@
 // Driving Code.
 void main(void)
 {
-   
+    // Declare  Variables.
+    int a, b;
+
+    // Take Input Values From User.
+    printf("Enter First Number: ");
+    scanf("%d", &a);
+    printf("Enter Second Number: ");
+    scanf("%d", &b);
+
+    // Operations.
+    a += b;    // Total
+    b = a - b; // Total - b = a
+    a = a - b; // Total - a = b
+
+    // Display Outputs To User.
+    printf("......After Swapping......\n");
+    printf("FirstNumber=%d\n", a);
+    printf("SecondNumber=%d\n", b);
 }
