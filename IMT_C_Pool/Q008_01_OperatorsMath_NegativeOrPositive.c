@@ -29,5 +29,25 @@
 // Driving Code.
 void main(void)
 {
-    
+    // Declare Variables.
+    int X;
+
+    // Take Input Number From User.
+    printf("Enter a Number: ");
+    scanf("%d", &X);
+
+    // Algorithm.
+    if (X > 0)
+    {
+        printf("%d is +ve", X);
+    }
+    else if (X < 0)
+    {
+        printf("%d is -ve", X);
+    }
+    else
+    {
+        printf("X is Zero of Undefined Entity");
+    }
+
 }
