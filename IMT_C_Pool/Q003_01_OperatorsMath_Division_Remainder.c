@@ -33,5 +33,28 @@
 // Driving Code.
 void main(void)
 {
+    // Declare 2 Variables.
+    int a, b, div, rem;
 
+    // Take 2 inputs from user.
+    printf("Please Enter Number 1: ");
+    scanf("%d", &a);
+    printf("Please Enter Number 2: ");
+    scanf("%d", &b);
+
+    // Operations.
+    if (a >= b)
+    {
+        div = (a / b);
+        rem = (a % b);
+    }
+    else
+    {
+        div = (b / a);
+        rem = (b % a);
+    }
+
+    // Display Outputs.
+    printf("Division=%d\n", div);
+    printf("Remainder=%d\n", rem);
 }
