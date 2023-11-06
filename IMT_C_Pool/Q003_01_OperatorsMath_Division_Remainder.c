@@ -34,7 +34,7 @@
 void main(void)
 {
     // Declare 2 Variables.
-    int a, b, div, rem;
+    int a, b, div=0, rem=0;
 
     // Take 2 inputs from user.
     printf("Please Enter Number 1: ");
