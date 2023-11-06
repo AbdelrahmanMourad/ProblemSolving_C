@@ -39,11 +39,11 @@ void main(void)
     scanf("%c", &Alphabet);
 
     // Algorithm.
-    if (('Alphabet' == 'a') ||
-        ('Alphabet' == 'e') ||
-        ('Alphabet' == 'o') ||
-        ('Alphabet' == 'i') ||
-        ('Alphabet' == 'u') ||)
+    if ((Alphabet == 'a') ||
+        (Alphabet == 'e') ||
+        (Alphabet == 'o') ||
+        (Alphabet == 'i') ||
+        (Alphabet == 'u'))
     {
         printf("%c is a vowel", Alphabet);
     }
