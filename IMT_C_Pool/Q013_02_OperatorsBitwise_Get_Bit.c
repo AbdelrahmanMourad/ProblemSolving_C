@@ -9,18 +9,18 @@
             ------------------------------
 
                 ----------------------
-                Problem (013): Get Bit:
+                Problem (013): Set Bit:
                 ----------------------
 
-                    Write a C program to input any number from user and check
-                    whether nth bit of the given number is set (1) or not (0)
+                    Write a C program to input any number from user and Set nth bit
+                    of the given number as (1) using bitwise operator
 
                     Test Case:
                         Input:
-                            Enter any number: 10
-                            Enter nth bit to check (0->31): 2
+                            Enter any number: 30
+                            Enter nth bit to check (0->31): 6
                         Output:
-                            The 2 Bit is set to 0
+                            Bit Set Successfully
     __________________________________________________________________
 */
 

@@ -27,8 +27,28 @@
 // Include Library.
 #include <stdio.h>
 
+// Function Like Macro
+#define GET_BIT(REG_NAME, BIT_NUM) ((REG_NAME >> BIT_NUM) & 1)
+#define SET_BIT(REG_NAME, BIT_NUM) (REG_NAME |= (1 << BIT_NUM))
+#define CLR_BIT(REG_NAME, BIT_NUM) (REG_NAME &= (~(1 << BIT_NUM)))
+#define TOG_BIT(REG_NAME, BIT_NUM) ((REG_NAME ^= (1 << BIT_NUM)))
+
 // Driving Code.
 void main(void)
 {
-    
+    // Declare Variables.
+    int RegValue;
+    char BitNumber;
+
+    // Take Inputs From User.
+    printf("Enter any number: ");
+    scanf("%d", &RegValue);
+    printf("Enter nth bit to check (0->31): ");
+    scanf("%d", &BitNumber);
+
+    // Calculations.
+    SET_BIT(RegValue, BitNumber);
+
+    // Display Outputs To User.
+    printf("Bit Set Successfully, New Value = %d", RegValue);
 }
