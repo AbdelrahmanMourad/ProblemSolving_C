@@ -5,30 +5,50 @@
         ---------------------------------
 
             ------------------------------
-            Section(1): Bitwise Operators:
+            Section(2): Bitwise Operators:
             ------------------------------
 
                 ----------------------
-                Problem (012): Get MSB:
+                Problem (013): Get Bit:
                 ----------------------
 
                     Write a C program to input any number from user and check
-                    whether Least significant Bit (LSB) of the given number is set (1)
-                    or not (0)
+                    whether nth bit of the given number is set (1) or not (0)
 
                     Test Case:
                         Input:
                             Enter any number: 10
+                            Enter nth bit to check (0->31): 2
                         Output:
-                            LSB of 10 is unset (0).
+                            The 2 Bit is set to 0
     __________________________________________________________________
 */
 
 // Include Library.
 #include <stdio.h>
 
+// Function Like Macro
+#define GET_BIT(REG_NAME, BIT_NUM) ((REG_NAME >> BIT_NUM) & 1)
+#define SET_BIT(REG_NAME, BIT_NUM) (REG_NAME |= (1 << BIT_NUM))
+#define CLR_BIT(REG_NAME, BIT_NUM) (REG_NAME &= (~(1 << BIT_NUM)))
+#define TOG_BIT(REG_NAME, BIT_NUM) ((REG_NAME ^= (1 << BIT_NUM)))
+
 // Driving Code.
 void main(void)
 {
-    
+    // Declare Variables.
+    int RegValue;
+    char BitNumber, Value;
+
+    // Take Inputs From User.
+    printf("Enter any number: ");
+    scanf("%d", &RegValue);
+    printf("Enter nth bit to check (0->31): ");
+    scanf("%d", &BitNumber);
+
+    // Calculations.
+    Value = GET_BIT(RegValue, BitNumber);
+
+    // Display Outputs To User.
+    printf("The %d Bit is set to %d", BitNumber, Value);
 }
