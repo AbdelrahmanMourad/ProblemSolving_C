@@ -13,8 +13,8 @@
                 ----------------------
 
                     Write a C program to input any number from user and check
-                    whether Least significant Bit (LSB) of the given number is set (1)
-                    or not (0)
+                    whether Least significant Bit (LSB) of the given number 
+                    is set (1) or not (0)
 
                     Test Case:
                         Input:
