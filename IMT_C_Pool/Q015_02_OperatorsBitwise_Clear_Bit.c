@@ -37,8 +37,7 @@
 void main(void)
 {
     // Declare Variables.
-    int RegValue;
-    char BitNumber;
+    int RegValue, BitNumber;
 
     // Take Inputs From User.
     printf("Enter any number: ");
