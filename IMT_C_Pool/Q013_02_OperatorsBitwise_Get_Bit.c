@@ -12,8 +12,8 @@
                 Problem (013): Set Bit:
                 ----------------------
 
-                    Write a C program to input any number from user and Set nth bit
-                    of the given number as (1) using bitwise operator
+                    Write a C program to input any number from user and check
+                    whether nth bit of the given number is set (1) or not (0)
 
                     Test Case:
                         Input:

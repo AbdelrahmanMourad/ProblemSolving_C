@@ -8,9 +8,9 @@
             Section(2): Bitwise Operators:
             ------------------------------
 
-                ----------------------
-                Problem (012): Get MSB:
-                ----------------------
+                -----------------------
+                Problem (014): Set Bit:
+                -----------------------
 
                     Write a C program to input any number from user and check
                     whether Least significant Bit (LSB) of the given number is set (1)
@@ -18,9 +18,10 @@
 
                     Test Case:
                         Input:
-                            Enter any number: 10
+                            Enter any number: 30
+                            Enter nth bit to set (0->31): 6
                         Output:
-                            LSB of 10 is unset (0).
+                            Bit Set Successfully.
     __________________________________________________________________
 */
 
