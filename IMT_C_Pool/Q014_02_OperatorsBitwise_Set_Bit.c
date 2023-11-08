@@ -9,7 +9,7 @@
             ------------------------------
 
                 ----------------------
-                Problem (011): Get LSB:
+                Problem (012): Get MSB:
                 ----------------------
 
                     Write a C program to input any number from user and check
@@ -30,23 +30,5 @@
 // Driving Code.
 void main(void)
 {
-    // Declare Variables.
-    int x;
-    char status;
-
-    // Take Input Number From User.
-    printf("Enter any number: ");
-    scanf("%d", &x);
-
-    // Algorithm.
-    status = (x & 1);
-
-    if (status == 1)
-    {
-        printf("LSB of %d is set (1)\n", x);
-    }
-    else if (status == 0)
-    {
-        printf("LSB of %d is unset (0)\n", x);
-    }
+    
 }
